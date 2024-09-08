@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+.work-sans-fornt {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shared styles */
+ .display-flex {
+    display: flex;
+ }
+ /* dark-1 */
+ .dark-1{
+    color: rgb(19, 19, 19);
+ }
+ /* dark-2 */
+ .dark-2{
+    color: rgb(66, 66, 66);
+ }
+ /* dark-3 */
+ .dark-3{
+    color: rgb(114, 114, 114);
+ }
+ .bg-light{
+    background: rgba(255, 144, 14, 0.1);
+ }
+ .bg-lighter{
+    background: rgb(255, 244, 231);
+ }
+
+ .btn-primary{
+   border-radius: 0.5rem;
+   background: rgb(255, 144, 14);
+   /* Rectangle 1 */
+position: relative;
+width: 11.25rem;
+height: 4rem;
+
+ }
+ .btn-primary-text{
+   color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 1.25rem;
+font-weight: 600;
+line-height: 1.44rem;
+letter-spacing: 0%;
+text-align: center;
+
+ }
+ /* header-style */
+ .heading{
+   /* Rectangle 2 */
+/* Rectangle 2 */
+position: absolute;
+width: 120rem;
+height: 82.63rem;
+left: 0;
+right: 0;
+top: 0;
+bottom: 214.88rem;
+ }
+ /* navbar -releated style */
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.link-item{
+    display: flex;
+    margin-right: 1.9rem ;
+   
+}
+.nav-links{
+    display: flex;
+    text-decoration: none;
+   
+    color: rgb(66, 66, 66);
+    font-family: Work Sans;
+    font-size: 1.13rem;
+    font-weight: 500;
+    line-height: 1.63rem;
+    letter-spacing: 0%;
+    text-align: center;
+
+    
+}
+.brand {
+
+   color: rgb(19, 19, 19);
+   font-family: Work Sans;
+   font-size: 2.81rem;
+   font-weight: 700;
+   line-height: 3.31rem;
+   letter-spacing: 0%;
+   text-align: center;
+}
+
+
+.banner{
+   /* Brand New Group of Architects */
+
+   position: absolute;
+width: 53.875rem;
+height: 14.0625rem;
+left: 33.0625rem;
+right: 33.0625rem;
+top: 12.8125rem;
+bottom: 270.625rem;
+
+
+}
+
+/* banner-related-styles */
+.banner-content{
+   max-width: 53.125rem;
+   margin: 0 auto;
+   text-align: center;
+}
+   
+.banner-image{
+   border-radius: 0.5rem;
+   /* Rectangle 12 */
+/* position:relative;
+width: 100%;
+height: 700px;
+left: 240px;
+right: 240px;
+top: 577px;
+bottom: 3483px; */
+
+/* scale in rm */
+/* Rectangle 12 */
+position: absolute;
+width: 90rem;
+height: 43.75rem;
+left: 15rem;
+right: 15rem;
+top: 36.06rem;
+bottom: 217.69rem;
+}
+.banner-title{
+   color: rgb(19, 19, 19);
+   font-family: Work Sans;
+   font-size: 4rem;
+   font-weight: 700;
+   line-height: 4.69rem;
+   letter-spacing: 0%;
+   text-align: center;
+}
